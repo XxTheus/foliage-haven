@@ -73,6 +73,7 @@ header div, .divisao1 {
 }
 
 .containerGeral1 {
+  font-family: 'Exo 2', sans-serif;
   background-color: gray;
   border: 2px white;
   width: 100%;
@@ -84,11 +85,13 @@ header div, .divisao1 {
 }
 
 .containerGeral1 > .containerServico1 {
+  background-color: #404143;
   margin: 2rem;
   width: 30%;
   height: 35rem;
   border: 2px solid;
   border-color: aliceblue;
+  border-radius: 1rem;
 }
 
 .containerGeral1 > .containerServico1 > .servico1 {
@@ -97,11 +100,14 @@ header div, .divisao1 {
 
 .containerGeral1 > .containerServico1 > .servico1 > .headerServico1{
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .containerGeral1 > .containerServico1 > .servico1 > .imgServico1 {
-  width: 21.875rem;
+  width: 100%;
   height: auto;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
 }
 
 .containerGeral1 > .containerServico1 > .servico1 > .paragrafoServico2 {
