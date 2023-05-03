@@ -2,6 +2,7 @@
   color: aliceblue;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .logo {
@@ -153,7 +154,7 @@ header div, .divisao1 {
 }
 
 main {
-  height: 500rem;
+  height: 150rem;
 }
 
 .containerMain {
@@ -335,4 +336,59 @@ main {
 .paragrafosSobre {
   font-family: 'Exo 2', sans-serif;
   font-size: 1.4rem;
+}
+
+.containerFooter {
+  background-color: #404143;
+}
+
+.footerPrincipal {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.listaLink {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  list-style: none;
+}
+
+.linkInicio, .linkServicos, .linkFAQs, .linkSobre {
+  text-decoration: none;
+}
+
+.footerInicio, .footerServicos, .footerFAQs, .footerSobre {
+  padding: 1.5rem;
+}
+
+.containerEmpresa {
+  width: 75%;
+  margin: auto;
+}
+
+.divisaoFooter {
+  opacity: 50%;
+  border-radius: 2rem;
+}
+
+.copyright {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 25rem;
+  display: inline-block;
+}
+
+.luSocial {
+  list-style: none;
+  float: right;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.liTwitter, .liInstagram, .liFacebook {
+  display: inline-block;
+  padding: 1.2rem;
 }
