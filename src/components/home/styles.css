@@ -344,6 +344,7 @@ main {
 
 .footerPrincipal {
   font-family: 'Exo 2', sans-serif;
+  height: 13.625rem;
 }
 
 .listaLink {
@@ -384,11 +385,17 @@ main {
 .luSocial {
   list-style: none;
   float: right;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
 }
 
 .liTwitter, .liInstagram, .liFacebook {
   display: inline-block;
-  padding: 1.2rem;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.imgTwitter, .imgInstagram, .imgFacebook {
+  width: 2rem;
+  height: 2rem;
 }
