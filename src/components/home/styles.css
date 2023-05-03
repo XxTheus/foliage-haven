@@ -43,14 +43,15 @@ body {
 .bemvindo1 {
   font-size: 1.4em;
   font-family: 'Ysabeau', sans-serif;
-  width: 12em;
+  width: 15rem;
   margin-bottom: -10px;
   cursor: pointer;
 }
 .bemvindo2 {
+  text-align: center;
   font-size: 2em;
   font-family: 'Exo 2', sans-serif;
-  width: 12em;
+  width: 15rem;
   cursor: pointer;
 }
 
