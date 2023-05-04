@@ -71,3 +71,10 @@ header div, .divisao1 {
       transform: translateY(0);
   }
 }
+
+.naoDeu {
+  padding-top: 1rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+}

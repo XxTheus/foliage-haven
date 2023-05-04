@@ -71,3 +71,172 @@ header div, .divisao1 {
       transform: translateY(0);
   }
 }
+
+.containerSobre {
+  margin-top: 5rem;
+  max-width: 50rem;
+  height: 100%;
+  border-radius: 1rem;
+  border: 2px white solid;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.articleSobre {
+  padding: 2rem;
+}
+
+.tituloSobre {
+  margin: auto;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-family: 'Ysabeau', sans-serif;
+  width: 22rem;
+  cursor: default;
+  text-align: center;
+}
+
+.paragrafosSobre {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.4rem;
+}
+
+.luSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  list-style: none;
+}
+
+.liGmail, .liTwitter, .liInstagram, .liFacebook {
+  display: inline-block;
+  margin: 0 .625rem;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.imgGmail, .imgTwitter, .imgInstagram, .imgFacebook {
+  width: 2rem;
+  height: 2rem;
+}
+
+.divisao2 {
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000);
+  background-size: 1500% auto;
+  animation: glowing 30s linear infinite;
+}
+
+.divisao3 {
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000, #ffaa2b, #56ff00, #00ffff, #004eff, #4b00ff, #fb00ff, #ff0000);
+  background-size: 1500% auto;
+  animation: glowing 30s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.containerMaps > .maps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+
+.paragrafosMapa {
+  padding-top: 0.5rem;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.containerFooter {
+  background-color: #404143;
+}
+
+.footerPrincipal {
+  font-family: 'Exo 2', sans-serif;
+  height: 13.625rem;
+}
+
+.listaLink {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  list-style: none;
+}
+
+.linkInicio, .linkServicos, .linkFAQs, .linkSobre {
+  text-decoration: none;
+}
+
+.footerInicio, .footerServicos, .footerFAQs, .footerSobre {
+  padding: 1.5rem;
+}
+
+.containerEmpresa {
+  width: 75%;
+  margin: auto;
+}
+
+.divisaoFooter {
+  opacity: 50%;
+  border-radius: 2rem;
+}
+
+.copyright {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 25rem;
+  display: inline-block;
+}
+
+.luSocial2 {
+  list-style: none;
+  float: right;
+}
+
+.liTwitter2, .liInstagram2, .liFacebook2 {
+  display: inline-block;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.imgTwitter2, .imgInstagram2, .imgFacebook2 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.divisao4 {
+  margin-top: 4rem;
+}

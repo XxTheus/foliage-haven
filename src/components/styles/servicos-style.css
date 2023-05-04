@@ -88,6 +88,7 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
+  min-height: 58rem;
   height: 100%;
   border: 2px solid;
   border-color: aliceblue;
@@ -164,6 +165,7 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
+  min-height: 58rem;
   height: 100%;
   border: 2px solid;
   border-color: aliceblue;
@@ -239,6 +241,7 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
+  min-height: 58rem;
   height: 100%;
   border: 2px solid;
   border-color: aliceblue;
@@ -316,6 +319,7 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
+  min-height: 58rem;
   height: 100%;
   border: 2px solid;
   border-color: aliceblue;
@@ -391,6 +395,7 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
+  min-height: 58rem;
   height: 100%;
   border: 2px solid;
   border-color: aliceblue;
@@ -466,6 +471,7 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
+  min-height: 58rem;
   height: 100%;
   border: 2px solid;
   border-color: aliceblue;
@@ -523,6 +529,11 @@ header div, .divisao1 {
   border-radius: 0.5rem;
   text-decoration: none;
   padding: 0.5rem;
+}
+
+.imgServico1, .imgServico2, .imgServico3 {
+  width: 100%;
+  aspect-ratio: 3/2;
 }
 /* Fim do serviço 3 */
 
@@ -602,4 +613,4 @@ header div, .divisao1 {
 .imgTwitter, .imgInstagram, .imgFacebook {
   width: 2rem;
   height: 2rem;
-}
+} /* Só um pouquinho de estilização 😅 */
