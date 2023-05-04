@@ -72,12 +72,12 @@ header div, .divisao1 {
   }
 }
 
+/* containerGeral1 */
+/* Serviço 1 */
 .containerGeral1 {
   font-family: 'Exo 2', sans-serif;
-  background-color: gray;
-  border: 2px white;
   width: 100%;
-  height: 35rem;
+  height: 100%;
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
@@ -88,17 +88,23 @@ header div, .divisao1 {
   background-color: #404143;
   margin: 2rem;
   width: 30%;
-  height: 35rem;
+  height: 100%;
   border: 2px solid;
   border-color: aliceblue;
   border-radius: 1rem;
+  animation: fromLeft .9s 1s backwards;
+  transition: transform .3s;
+}
+
+.containerGeral1 > .containerServico1:hover {
+  transform: scale(1.05);
 }
 
 .containerGeral1 > .containerServico1 > .servico1 {
   padding: 1rem;
 }
 
-.containerGeral1 > .containerServico1 > .servico1 > .headerServico1{
+.containerGeral1 > .containerServico1 > .servico1 > .headerServico1 {
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -114,27 +120,182 @@ header div, .divisao1 {
   text-align: justify;
 }
 
+.containerGeral1 > .containerServico1 > .servico1 > .listaServico1 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.containerGeral1 > .containerServico1 > .servico1 > .listaServico1 > .item1, .item2, .item3 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.containerGeral1 > .containerServico1 > .servico1 > .detalheServico1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.containerGeral1 > .containerServico1 > .servico1 > .detalheServico1 > .linkServico1 {
+  background-color: gray;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* Fim do serviço 1 */
+
+/* Serviço 2 */
+.containerGeral1 {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .containerGeral1 > .containerServico2 {
+  background-color: #404143;
   margin: 2rem;
   width: 30%;
-  height: 35rem;
+  height: 100%;
   border: 2px solid;
   border-color: aliceblue;
+  border-radius: 1rem;
+  animation: fromLeft .9s 1.3s backwards;
+  transition: transform .3s;
+}
+
+.containerGeral1 > .containerServico2:hover {
+  transform: scale(1.05);
+}
+
+.containerGeral1 > .containerServico2 > .servico2 {
+  padding: 1rem;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .headerServico2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .imgServico2 {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .paragrafoServico2 {
+  text-align: justify;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .listaServico2 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .listaServico2 > .item1, .item2, .item3 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .detalheServico2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.containerGeral1 > .containerServico2 > .servico2 > .detalheServico2 > .linkServico2 {
+  background-color: gray;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* Fim do serviço 2 */
+
+/* Serviço 3 */
+.containerGeral1 {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .containerGeral1 > .containerServico3 {
+  background-color: #404143;
   margin: 2rem;
   width: 30%;
-  height: 35rem;
+  height: 100%;
   border: 2px solid;
   border-color: aliceblue;
+  border-radius: 1rem;
+  animation: fromLeft .9s 1.6s backwards;
+  transition: transform .3s;
 }
 
-.containerGeral2 {
-  background-color: gray;
-  border: 2px white;
+.containerGeral1 > .containerServico3:hover {
+  transform: scale(1.05);
+}
+
+.containerGeral1 > .containerServico3 > .servico3 {
+  padding: 1rem;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .headerServico3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .imgServico3 {
   width: 100%;
-  height: 35rem;
+  height: auto;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .paragrafoServico3 {
+  text-align: justify;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .listaServico3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .listaServico3 > .item1, .item2, .item3 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .detalheServico3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.containerGeral1 > .containerServico3 > .servico3 > .detalheServico3 > .linkServico3 {
+  background-color: gray;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* Fim do serviço 3 */
+/* Fim do containerGeral1 */
+
+/* containerGeral2 */
+/* Serviço 1 */
+.containerGeral2 {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100%;
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
@@ -142,25 +303,284 @@ header div, .divisao1 {
 }
 
 .containerGeral2 > .containerServico1 {
+  background-color: #404143;
   margin: 2rem;
   width: 30%;
-  height: 35rem;
+  height: 100%;
   border: 2px solid;
-  border-color: lightblue;
+  border-color: aliceblue;
+  border-radius: 1rem;
+  animation: fromLeft .9s 1.9s backwards;
+  transition: transform .3s;
+}
+
+.containerGeral2 > .containerServico1:hover {
+  transform: scale(1.05);
+}
+
+.containerGeral2 > .containerServico1 > .servico1 {
+  padding: 1rem;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .headerServico1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .imgServico1 {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .paragrafoServico2 {
+  text-align: justify;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .listaServico1 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .listaServico1 > .item1, .item2, .item3 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .detalheServico1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.containerGeral2 > .containerServico1 > .servico1 > .detalheServico1 > .linkServico1 {
+  background-color: gray;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* Fim do serviço 1 */
+
+/* Serviço 2 */
+.containerGeral2 {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .containerGeral2 > .containerServico2 {
+  background-color: #404143;
   margin: 2rem;
   width: 30%;
-  height: 35rem;
+  height: 100%;
   border: 2px solid;
-  border-color: lightblue;
+  border-color: aliceblue;
+  border-radius: 1rem;
+  animation: fromLeft .9s 2.1s backwards;
+  transition: transform .3s;
+}
+
+.containerGeral2 > .containerServico2:hover {
+  transform: scale(1.05);
+}
+
+.containerGeral2 > .containerServico2 > .servico2 {
+  padding: 1rem;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .headerServico2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .imgServico2 {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .paragrafoServico2 {
+  text-align: justify;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .listaServico2 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .listaServico2 > .item1, .item2, .item3 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .detalheServico2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.containerGeral2 > .containerServico2 > .servico2 > .detalheServico2 > .linkServico2 {
+  background-color: gray;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* Fim do serviço 2 */
+
+/* Serviço 3 */
+.containerGeral2 {
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .containerGeral2 > .containerServico3 {
+  background-color: #404143;
   margin: 2rem;
   width: 30%;
-  height: 35rem;
+  height: 100%;
   border: 2px solid;
-  border-color: lightblue;
+  border-color: aliceblue;
+  border-radius: 1rem;
+  animation: fromLeft .9s 2.4s backwards;
+  transition: transform .3s;
+}
+
+.containerGeral2 > .containerServico3:hover {
+  transform: scale(1.05);
+}
+
+.containerGeral2 > .containerServico3 > .servico3 {
+  padding: 1rem;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .headerServico3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .imgServico3 {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .paragrafoServico3 {
+  text-align: justify;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .listaServico3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .listaServico3 > .item1, .item2, .item3 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .detalheServico3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.containerGeral2 > .containerServico3 > .servico3 > .detalheServico3 > .linkServico3 {
+  background-color: gray;
+  border: 2px white solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+/* Fim do serviço 3 */
+
+@keyframes fromLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-30px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.divisao2 {
+  margin-top: 4rem;
+}
+
+.containerFooter {
+  background-color: #404143;
+}
+
+.footerPrincipal {
+  font-family: 'Exo 2', sans-serif;
+  height: 13.625rem;
+}
+
+.listaLink {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  list-style: none;
+}
+
+.linkInicio, .linkServicos, .linkFAQs, .linkSobre {
+  text-decoration: none;
+}
+
+.footerInicio, .footerServicos, .footerFAQs, .footerSobre {
+  padding: 1.5rem;
+}
+
+.containerEmpresa {
+  width: 75%;
+  margin: auto;
+}
+
+.divisaoFooter {
+  opacity: 50%;
+  border-radius: 2rem;
+}
+
+.copyright {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 25rem;
+  display: inline-block;
+}
+
+.luSocial {
+  list-style: none;
+  float: right;
+}
+
+.liTwitter, .liInstagram, .liFacebook {
+  display: inline-block;
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.imgTwitter, .imgInstagram, .imgFacebook {
+  width: 2rem;
+  height: 2rem;
 }
