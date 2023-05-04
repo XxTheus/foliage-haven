@@ -107,6 +107,7 @@ header div, .divisao1 {
 .containerGeral1 > .containerServico1 > .servico1 > .headerServico1 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .containerGeral1 > .containerServico1 > .servico1 > .imgServico1 {
@@ -114,15 +115,18 @@ header div, .divisao1 {
   height: auto;
   border-radius: 2rem;
   margin-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
-.containerGeral1 > .containerServico1 > .servico1 > .paragrafoServico2 {
+.containerGeral1 > .containerServico1 > .servico1 > .paragrafoServico1 {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .containerGeral1 > .containerServico1 > .servico1 > .listaServico1 {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .containerGeral1 > .containerServico1 > .servico1 > .listaServico1 > .item1, .item2, .item3 {
@@ -179,6 +183,7 @@ header div, .divisao1 {
 .containerGeral1 > .containerServico2 > .servico2 > .headerServico2 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .containerGeral1 > .containerServico2 > .servico2 > .imgServico2 {
@@ -190,11 +195,13 @@ header div, .divisao1 {
 
 .containerGeral1 > .containerServico2 > .servico2 > .paragrafoServico2 {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .containerGeral1 > .containerServico2 > .servico2 > .listaServico2 {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .containerGeral1 > .containerServico2 > .servico2 > .listaServico2 > .item1, .item2, .item3 {
@@ -251,6 +258,7 @@ header div, .divisao1 {
 .containerGeral1 > .containerServico3 > .servico3 > .headerServico3 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .containerGeral1 > .containerServico3 > .servico3 > .imgServico3 {
@@ -262,11 +270,13 @@ header div, .divisao1 {
 
 .containerGeral1 > .containerServico3 > .servico3 > .paragrafoServico3 {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .containerGeral1 > .containerServico3 > .servico3 > .listaServico3 {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .containerGeral1 > .containerServico3 > .servico3 > .listaServico3 > .item1, .item2, .item3 {
@@ -325,6 +335,7 @@ header div, .divisao1 {
 .containerGeral2 > .containerServico1 > .servico1 > .headerServico1 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .containerGeral2 > .containerServico1 > .servico1 > .imgServico1 {
@@ -334,13 +345,15 @@ header div, .divisao1 {
   margin-bottom: 1rem;
 }
 
-.containerGeral2 > .containerServico1 > .servico1 > .paragrafoServico2 {
+.containerGeral2 > .containerServico1 > .servico1 > .paragrafoServico1 {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .containerGeral2 > .containerServico1 > .servico1 > .listaServico1 {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .containerGeral2 > .containerServico1 > .servico1 > .listaServico1 > .item1, .item2, .item3 {
@@ -397,6 +410,7 @@ header div, .divisao1 {
 .containerGeral2 > .containerServico2 > .servico2 > .headerServico2 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .containerGeral2 > .containerServico2 > .servico2 > .imgServico2 {
@@ -408,11 +422,13 @@ header div, .divisao1 {
 
 .containerGeral2 > .containerServico2 > .servico2 > .paragrafoServico2 {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .containerGeral2 > .containerServico2 > .servico2 > .listaServico2 {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .containerGeral2 > .containerServico2 > .servico2 > .listaServico2 > .item1, .item2, .item3 {
@@ -469,6 +485,7 @@ header div, .divisao1 {
 .containerGeral2 > .containerServico3 > .servico3 > .headerServico3 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: 1.8rem;
 }
 
 .containerGeral2 > .containerServico3 > .servico3 > .imgServico3 {
@@ -480,11 +497,13 @@ header div, .divisao1 {
 
 .containerGeral2 > .containerServico3 > .servico3 > .paragrafoServico3 {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 .containerGeral2 > .containerServico3 > .servico3 > .listaServico3 {
   padding-top: 1rem;
   padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 .containerGeral2 > .containerServico3 > .servico3 > .listaServico3 > .item1, .item2, .item3 {
